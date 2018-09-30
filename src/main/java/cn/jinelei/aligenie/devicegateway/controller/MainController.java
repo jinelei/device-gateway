@@ -21,6 +21,7 @@ public class MainController {
     public String gateway(@RequestBody String body) {
         LOGGER.debug("request gateway: ");
         LOGGER.debug(body);
+
         System.out.println(body);
         return "gateway";
     }

@@ -3,13 +3,13 @@ package cn.jinelei.aligenie.devicegateway.po;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Header {
-    @JsonProperty(required = true, index = 1)
+    @JsonProperty(required = true)
     private String namespace;
-    @JsonProperty(required = true, index = 2)
+    @JsonProperty(required = true)
     private String name;
-    @JsonProperty(required = true, index = 3)
+    @JsonProperty(required = true)
     private String messageId;
-    @JsonProperty(required = true, index = 4)
+    @JsonProperty(required = true)
     private String payLoadVersion;
 
     public Header() {

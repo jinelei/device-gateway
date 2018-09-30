@@ -4,12 +4,12 @@ import javax.management.Query;
 
 public enum HeaderName {
     /**
-     * 设备发现类（与AliGenie.Iot.Device.Discovery对应）
+     * 设备发现类（与AliGenie.Iot.PayloadDevice.Discovery对应）
      */
     DiscoveryDevices("DiscoveryDevices", "设备发现（获取设备列表）"),
 
     /**
-     * 操作类（与AliGenie.Iot.Device.Control对应）
+     * 操作类（与AliGenie.Iot.PayloadDevice.Control对应）
      */
     TurnOn("TurnOn", "打开"),
     TurnOff("TurnOff", "关闭"),
@@ -43,7 +43,7 @@ public enum HeaderName {
     CancelMode("CancelMode", "取消模式(退出模式)"),
 
     /**
-     * 查询类（与AliGenie.Iot.Device.Query对应）
+     * 查询类（与AliGenie.Iot.PayloadDevice.Query对应）
      */
     Query("Query", "查询所有标准属性"),
     QueryColor("QueryColor", "查询颜色"),
